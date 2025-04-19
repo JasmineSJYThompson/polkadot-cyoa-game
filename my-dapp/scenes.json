@@ -1,0 +1,66 @@
+{
+  "scenes": {
+    "0": {
+      "description": "🧙 You awaken in a moss-covered stone circle. Fog drips from twisted trees. A raven stares.\nYour only belongings: a rusty dagger, a torn map, and a faint headache that feels... cursed.",
+      "choices": {
+        "Examine the map": "1",
+        "Talk to the raven": "2",
+        "Walk into the forest": "3"
+      }
+    },
+    "1": {
+      "description": "📜 The map shows a ruin labeled 'Whispering Vault' and a trail marked with cryptic runes.",
+      "choices": {
+        "Follow the trail": "3",
+        "Return to the stone circle": "0"
+      }
+    },
+    "2": {
+      "description": "🪶 The raven cocks its head. In a raspy human voice it says: 'Three paths, one truth. Don't trust the smiling god.'",
+      "choices": {
+        "Demand more answers": "4",
+        "Back away slowly": "0"
+      }
+    },
+    "3": {
+      "description": "🌲 The forest path splits ahead. One way leads to light and laughter. The other, to silence and cold shadows.",
+      "choices": {
+        "Take the bright path": "5",
+        "Take the dark path": "6"
+      }
+    },
+    "4": {
+      "description": "🦉 The raven screeches and bursts into black feathers. A silver key is left behind.",
+      "choices": {
+        "Take the key and head to the forest": "3"
+      }
+    },
+    "5": {
+      "description": "🌞 Warm light filters through golden leaves. You hear music, distant and cheerful. A small cottage lies ahead.\nAn old man sits outside, whittling a flute from bone. His smile doesn't reach his eyes.",
+      "choices": {
+        "Speak to the old man": "7",
+        "Ignore him and walk past": "END"
+      }
+    },
+    "6": {
+      "description": "🌑 The air grows colder. Trees groan like dying things. You find a ruined shrine where an old man in rags tends a flickering blue flame.\nHis eyes are milky, but he speaks before you do: 'I saw you in the ashes.'",
+      "choices": {
+        "Ask what he means": "8",
+        "Back away into the forest": "END"
+      }
+    },
+    "7": {
+      "description": "🎵 The old man chuckles. 'So you've heard the laughter too. Most think it's the fairfolk — it's not.'\n'The Whispering Vault opens soon. When it does, not even gods will sleep safe.'",
+      "choices": {
+        "Ask about the Whispering Vault": "END"
+      }
+    },
+    "8": {
+      "description": "🕯 The blind man dips his finger into the blue flame and draws a sigil in the air. It burns into your vision.\n'You were marked at birth. The Vault remembers. And it waits.'",
+      "choices": {
+        "Stare into the flame": "END"
+      }
+    }
+  }
+}
+
