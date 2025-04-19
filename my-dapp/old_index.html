@@ -7,14 +7,16 @@
 <body>
   <h1>Minimal dApp with Dynamic ABI</h1>
   <button onclick="connect()">Connect to MetaMask</button>
-  <button onclick="saveScene()">Save Scene</button>
-  <button onclick="loadScene()">Load Scene</button>
+  <button onclick="getValue()">Read Stored Value</button>
   <div id="output"></div>
+  
+  <input type="number" id="numberInput" placeholder="Enter a number">
+  <button onclick="sendNumber()">Send Number</button>
   <div id="txStatus"></div>
-  <div id="choices"></div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
-  <script src="interact.js"></script>
+  <script src="old_interact.js"></script>
 </body>
 </html>
 
