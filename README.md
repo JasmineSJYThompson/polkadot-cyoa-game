@@ -56,7 +56,7 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 
 # How to run
 
-To run any of the iterationn:
+To run any of the iterations:
 
 - If the iteration runs on html and javascript then you use the command ```python -m http.server``` in the directory then navigate to ```localhost:8000```
 - If the iteration runs on python create a virtual environment, observe any imported packages and install using pip then run the relevant app using ```python app.py```
