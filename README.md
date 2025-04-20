@@ -1,5 +1,7 @@
 ## Gilgamesh.exe: A Cyberpunk Retelling of the Epic of Gilgamesh CYOA game on Polkadot—your choices logged on-chain, your legend forged in blockchain-tracked history.
 
+![Gilgamesh.exe logo](images/gilgamesh.png)
+
 # Overview
 
 *Gilgamesh.exe* is a choose-your-own-adventure (CYOA) game set in a cyberpunk reimagining of the *Epic of Gilgamesh*. The game uses blockchain technology to record each player’s decisions on-chain, creating an immutable and verifiable narrative history. While the full integration of blockchain features is still in development, the vision is to have a persistent and player-owned story experience where every decision has lasting impact.
@@ -26,11 +28,21 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 - **NFT Minting:** Player paths will be minted as NFTs in future versions, allowing players to collect and trade unique story outcomes.
 - **Cross-Chain Expansion:** Plans to expand the game into multiple parachains or integrate with other Web3 projects are being explored, enabling a broader narrative experience.
 
+# Diagrams of the game map
+
+![story map one](images/act_one_story_map.jpg)
+
+![story map two](images/act_two_story_map.jpg)
+
+![story map three](images/act_three_story_map.jpg)
+
 # Demo game functionality
 
-Demo game functionality (iteration 0): https://youtu.be/t5Ntn5ekXFA
+[Demo game functionality video (iteration 0)](https://youtu.be/t5Ntn5ekXFA)
 
-Demo value save functionality with MetaMask on Westend AssetHub using Storage Smart contract (iteration 2): https://youtu.be/egZqN9xHS_g
+[Demo value save functionality with MetaMask on Westend AssetHub using Storage Smart contract video (iteration 2)](https://youtu.be/egZqN9xHS_g)
+
+[Demo story progress tracker with Metamask on Westend Assethub using IntegerStorage custom smart contract video (interation 6)](https://youtu.be/y4dbvF7GeIE)
 
 # How to run
 
