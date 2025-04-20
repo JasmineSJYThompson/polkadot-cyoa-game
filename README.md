@@ -36,13 +36,9 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 
 # Demo game functionality
 
-Demo game functionality (iteration 0): 
+[Demo game functionality video (iteration 0)](https://youtu.be/t5Ntn5ekXFA)
 
-[![alt]([https://img.youtube.com/vi/t5Ntn5ekXFA)](https://youtu.be/t5Ntn5ekXFA)]
-
-Demo value save functionality with MetaMask on Westend AssetHub using Storage Smart contract (iteration 2):
-
-[![alt](https://img.youtube.com/vi/egZqN9xHS_g)](https://youtu.be/egZqN9xHS_g)]
+[Demo value save functionality with MetaMask on Westend AssetHub using Storage Smart contract video (iteration 2)](https://youtu.be/egZqN9xHS_g)
 
 # How to run
 
