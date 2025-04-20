@@ -25,7 +25,7 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 # Why is the project organised this way
 
 - Due to the immutable nature of smart contracts and their small storage size, functionality was tested and built up bit by bit in iterations so there is no finished product but I have video demoed various different stages (iteration0, iteration2, iteration6) in order that it can be understood how everything comes together.
-- The connection between https://remix.polkadot.io/ and being able to locally integrate with javascript in the web browser was something I continously tested to understand smart contract capabilities, developing my own smart contracts and testing them with inputs within my own locally run http server each time.
+- The connection between https://remix.polkadot.io/ and being able to locally integrate with my MetaMask setup in my Firefox browser was something I continously tested to understand smart contract capabilities, developing my own smart contracts and testing them with inputs within my own locally run http server each time.
 - The idea is that the smart contract functionality be integrated with the story progress functionality in a fancy command-line like interface for the actual video game. Currently latency issues make this difficult to develop in one piece.
 
 # Future Development
