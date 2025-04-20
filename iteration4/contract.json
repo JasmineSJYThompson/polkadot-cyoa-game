@@ -1,0 +1,34 @@
+{
+  "name": "Storage",
+  "address": "0x1f6d953ca48fb7cb90117f63bdd80c5f5c519830",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "num",
+          "type": "uint256"
+        }
+      ],
+      "name": "store",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "retrieve",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "StorageContract/contracts/1_Storage.sol",
+  "pinnedAt": 1745081759037
+}

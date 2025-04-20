@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integer Storage Contract</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.6.9/dist/ethers.umd.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    .button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    input {
+      padding: 8px;
+      font-size: 16px;
+      margin: 10px;
+      width: 200px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    #output, #txStatus, #allIntegersStatus {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ethereum Integer Storage Contract</h1>
+
+  <button class="button" onclick="connect()">Connect to MetaMask</button>
+
+  <h3>Save Integer:</h3>
+  <input type="number" id="numberInput" placeholder="Enter number" />
+  <button class="button" onclick="saveInteger()">Save Integer</button>
+  <div id="txStatus"></div>
+
+  <h3>Load Most Recent Integer:</h3>
+  <button class="button" onclick="loadInteger()">Load Integer</button>
+  <div id="output"></div>
+
+  <h3>Load All Saved Integers:</h3>
+  <button class="button" onclick="loadAllIntegers()">Load All Integers</button>
+  <div id="allIntegersStatus"></div>
+
+  <script src="interact.js"></script>
+</body>
+</html>
+
