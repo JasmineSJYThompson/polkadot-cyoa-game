@@ -1,5 +1,7 @@
 ## Gilgamesh.exe: A Cyberpunk Retelling of the Epic of Gilgamesh CYOA game on Polkadot—your choices logged on-chain, your legend forged in blockchain-tracked history.
 
+![Gilgamesh.exe logo](images/gilgamesh.png)
+
 # Overview
 
 *Gilgamesh.exe* is a choose-your-own-adventure (CYOA) game set in a cyberpunk reimagining of the *Epic of Gilgamesh*. The game uses blockchain technology to record each player’s decisions on-chain, creating an immutable and verifiable narrative history. While the full integration of blockchain features is still in development, the vision is to have a persistent and player-owned story experience where every decision has lasting impact.
