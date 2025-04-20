@@ -28,9 +28,11 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 
 # Diagrams of the game map
 
-https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_one_story_map.jpg
-https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_two_story_map.jpg
-https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_three_story_map.jpg
+![story map one](images/act_one_story_map.jpg)
+
+![story map two](images/act_two_story_map.jpg)
+
+![story map three](images/act_three_story_map.jpg)
 
 # Demo game functionality
 
