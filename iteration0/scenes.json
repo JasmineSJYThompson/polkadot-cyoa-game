@@ -110,6 +110,149 @@
       "choices": {
         "leave_uruk": "act_two_start"
       }
+    },
+    "act_two_start": {
+      "desc": "You and your chosen ally board a maglev train to the Outzone. The shard glows faintly. Strange dreams begin.",
+      "choices": {
+          "analyze_shard": "shard_ai_manifestation",
+          "ignore_dreams": "outzone_arrival_guardian"
+      }
+    },
+    "shard_ai_manifestation": {
+        "desc": "The shard contains a dormant AI based on the myth of Utnapishtim. It begins communicating with you.",
+        "choices": {
+            "trust_utnapishtim": "outzone_arrival_guardian",
+            "try_to_purge_it": "siduri_sabotage_attempt"
+        }
+    },
+    "outzone_arrival_guardian": {
+        "desc": "A mecha-guardian interrogates you on arrival. It scans for the shard’s signal.",
+        "choices": {
+            "hide_shard": "smuggler_contact",
+            "bribe_guardian": "hacked_passage_to_ruins"
+        }
+    },
+    "siduri_sabotage_attempt": {
+        "desc": "Siduri triggers a failsafe in your aug to destroy the AI. Enkidu tries to counter it remotely.",
+        "choices": {
+            "fight_the_control": "shard_integrated_success",
+            "submit_to_control": "shard_corrupted_ai"
+        }
+    },
+    "smuggler_contact": {
+        "desc": "A rogue netrunner named Shamhat offers to get you into the ruins. She demands a favor in return.",
+        "choices": {
+            "accept_favor": "shamhat_subplot",
+            "refuse_and_sneak": "hacked_passage_to_ruins"
+        }
+    },
+    "hacked_passage_to_ruins": {
+        "desc": "You bypass the gate via maintenance tunnels. Corp drones patrol the area.",
+        "choices": {
+            "rush_through": "pre_ruins_checkpoint",
+            "sneak_carefully": "pre_ruins_checkpoint"
+        }
+    },
+    "shamhat_subplot": {
+        "desc": "Shamhat wants you to destroy a cloning tank. Inside is a version of Enkidu. He doesn’t know you.",
+        "choices": {
+            "kill_the_clone": "pre_ruins_checkpoint",
+            "spare_the_clone": "pre_ruins_checkpoint"
+        }
+    },
+    "pre_ruins_checkpoint": {
+        "desc": "A checkpoint scans for identity. You must convince the AI administrator to let you pass.",
+        "choices": {
+            "hack_the_ai": "ancient_city_of_code",
+            "answer_with_truth": "ancient_city_of_code"
+        }
+    },
+    "ancient_city_of_code": {
+        "desc": "You reach the ruins—an ancient cyber-library. Ghosts of old minds drift through the datastream.",
+        "choices": {
+            "search_for_truth": "gilgamesh_memory_chamber",
+            "search_for_power": "siduri_data_vault"
+        }
+    },
+    "gilgamesh_memory_chamber": {
+        "desc": "You find echoes of your old self, Gilgamesh v1.0. He speaks to you in riddles. You feel your self fracture.",
+        "choices": {
+            "merge_with_memory": "shard_integrated_success",
+            "reject_old_self": "shard_corrupted_ai"
+        }
+    },
+    "siduri_data_vault": {
+        "desc": "Siduri has a hidden vault of consciousness code. She offers you the chance to overwrite yourself.",
+        "choices": {
+            "upload_new_code": "shard_corrupted_ai",
+            "refuse_and_escape": "shard_integrated_success"
+        }
+    },
+    "shard_integrated_success": {
+        "desc": "You achieve balance—shard and self integrated. You feel more human and more god than ever.",
+        "choices": {
+            "prepare_for_final_trial": "act_three_start"
+        }
+    },
+    "shard_corrupted_ai": {
+        "desc": "The shard overtakes you. You feel cold logic replacing empathy. Enkidu tries to reach you, but you no longer care.",
+        "choices": {
+            "march_onward": "act_three_start"
+        }
+    },
+    "act_three_start": {
+      "desc": "You arrive at the walls of Neo-Eden, the final frontier of the Dilmun Protocol. The city pulses with divine code.",
+      "choices": {
+          "sneak_inside": "eden_network_breach",
+          "request_audience": "eden_gatekeeper_encounter"
+      }
+    },
+    "eden_network_breach": {
+        "desc": "Inside Neo-Eden’s data layer, you uncover logs of your creation. You were built as a failsafe monarch.",
+        "choices": {
+            "reveal_truth_to_all": "enlightenment_riot_event",
+            "hide_truth_for_later": "eden_inner_chamber"
+        }
+    },
+    "eden_gatekeeper_encounter": {
+        "desc": "A hybrid being, half-saint, half-ICE, demands proof of humanity to enter. Enkidu speaks for you—or doesn’t.",
+        "choices": {
+            "present_enkidu": "eden_inner_chamber",
+            "override_gatekeeper": "eden_network_breach"
+        }
+    },
+    "enlightenment_riot_event": {
+        "desc": "Truth unleashes chaos. Citizens rebel. Enkidu shields you from an explosion. Siduri vanishes into data smoke.",
+        "choices": {
+            "save_eden": "eden_inner_chamber",
+            "let_it_burn": "descent_to_dilmun"
+        }
+    },
+    "eden_inner_chamber": {
+        "desc": "You find the tree of protocol—its roots entwined with human dreams. You must merge with it or destroy it.",
+        "choices": {
+            "merge_with_tree": "merge_ending",
+            "destroy_the_root": "destruction_ending"
+        }
+    },
+    "descent_to_dilmun": {
+        "desc": "A secret tunnel leads beneath Eden. You and Enkidu descend toward the cradle of all cybernetic life.",
+        "choices": {
+            "follow_enkidu": "merge_ending",
+            "follow_siduri": "domination_ending"
+        }
+    },
+    "merge_ending": {
+        "desc": "You merge with the protocol, becoming a new hybrid force—half god, half flawed human. Enkidu is reborn beside you.",
+        "choices": {}
+    },
+    "destruction_ending": {
+        "desc": "You destroy the tree. Neo-Eden collapses. Enkidu holds you as the world fractures. But you are finally free.",
+        "choices": {}
+    },
+    "domination_ending": {
+        "desc": "Following Siduri, you become a god-emperor of code, ruling what’s left. Your humanity fades completely.",
+        "choices": {}
     }
   }
 }
