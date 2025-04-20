@@ -40,6 +40,8 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 
 [Demo value save functionality with MetaMask on Westend AssetHub using Storage Smart contract video (iteration 2)](https://youtu.be/egZqN9xHS_g)
 
+[Demo story progress tracker with Metamask on Westend Assethub using IntegerStorage custom smart contract video (interation 6)](https://youtu.be/y4dbvF7GeIE)
+
 # How to run
 
 To run any of the iterationn:
