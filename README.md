@@ -26,6 +26,12 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 - **NFT Minting:** Player paths will be minted as NFTs in future versions, allowing players to collect and trade unique story outcomes.
 - **Cross-Chain Expansion:** Plans to expand the game into multiple parachains or integrate with other Web3 projects are being explored, enabling a broader narrative experience.
 
+# Diagrams of the game map
+
+https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_one_story_map.jpg
+https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_two_story_map.jpg
+https://github.com/JasmineSJYThompson/polkadot-cyoa-game/blob/main/images/act_three_story_map.jpg
+
 # Demo game functionality
 
 Demo game functionality (iteration 0): https://youtu.be/t5Ntn5ekXFA
