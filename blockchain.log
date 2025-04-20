@@ -1,0 +1,99 @@
+2025-04-18 12:40:48,478 - INFO - Blockchain storage initialized
+2025-04-18 12:50:49,894 - INFO - Blockchain storage initialized
+2025-04-18 12:50:52,958 - INFO - Blockchain storage initialized
+2025-04-18 12:50:57,741 - INFO - Blockchain storage initialized
+2025-04-18 12:50:58,348 - INFO - Blockchain storage initialized
+2025-04-18 12:51:05,371 - INFO - Blockchain storage initialized
+2025-04-18 12:51:05,387 - INFO - Preparing to save scene: forest_path
+2025-04-18 12:51:14,029 - INFO - Blockchain storage initialized
+2025-04-18 12:51:20,772 - INFO - Blockchain storage initialized
+2025-04-18 12:51:29,451 - INFO - Blockchain storage initialized
+2025-04-18 12:51:30,379 - INFO - Blockchain storage initialized
+2025-04-18 12:51:34,476 - INFO - Blockchain storage initialized
+2025-04-18 12:51:35,868 - INFO - Blockchain storage initialized
+2025-04-18 12:51:38,149 - INFO - Blockchain storage initialized
+2025-04-18 12:51:38,569 - INFO - Searching for saved scene from block 25655608
+2025-04-18 12:51:40,510 - INFO - Scene forest_path saved in block 25655609
+2025-04-18 12:52:07,893 - INFO - No saved scene found
+2025-04-18 13:04:31,968 - INFO - Blockchain storage initialized
+2025-04-18 13:04:32,141 - INFO - Searching for saved scene from block 25655737
+2025-04-18 13:05:13,517 - INFO - Blockchain storage initialized
+2025-04-18 13:05:13,667 - INFO - Searching for saved scene from block 25655744
+2025-04-18 13:05:41,084 - INFO - No saved scene found
+2025-04-18 13:05:41,085 - ERROR - Error preloading saved state: a coroutine was expected, got None
+2025-04-18 13:05:41,086 - ERROR - Error in game: 'StreamlitGame' object has no attribute 'display_scene'
+2025-04-18 13:10:22,852 - INFO - Blockchain storage initialized
+2025-04-18 13:10:25,585 - INFO - Blockchain storage initialized
+2025-04-18 13:10:25,794 - INFO - Blockchain storage initialized
+2025-04-18 13:10:26,285 - INFO - Blockchain storage initialized
+2025-04-18 13:10:27,877 - INFO - Blockchain storage initialized
+2025-04-18 13:10:28,391 - INFO - Blockchain storage initialized
+2025-04-18 13:10:29,909 - INFO - Blockchain storage initialized
+2025-04-18 13:10:30,437 - INFO - Blockchain storage initialized
+2025-04-18 13:10:33,128 - INFO - Blockchain storage initialized
+2025-04-18 13:10:33,142 - INFO - Preparing to save scene: bright_path
+2025-04-18 13:10:39,412 - INFO - Scene bright_path saved in block 25655799
+2025-04-18 13:10:39,414 - ERROR - Error saving game: object bool can't be used in 'await' expression
+2025-04-18 13:11:08,939 - INFO - Blockchain storage initialized
+2025-04-18 13:11:11,899 - INFO - Blockchain storage initialized
+2025-04-18 13:11:12,868 - INFO - Blockchain storage initialized
+2025-04-18 13:11:14,706 - INFO - Blockchain storage initialized
+2025-04-18 13:11:15,608 - INFO - Blockchain storage initialized
+2025-04-18 13:15:06,811 - INFO - Blockchain storage initialized
+2025-04-18 13:15:07,654 - INFO - Blockchain storage initialized
+2025-04-18 13:15:09,600 - INFO - Blockchain storage initialized
+2025-04-18 13:15:10,383 - INFO - Blockchain storage initialized
+2025-04-18 13:15:20,048 - INFO - Blockchain storage initialized
+2025-04-18 13:15:20,212 - INFO - Searching for saved scene from block 25655845
+2025-04-18 13:15:33,805 - INFO - Found saved scene bright_path in block 25655799
+2025-04-18 13:15:34,970 - INFO - Blockchain storage initialized
+2025-04-19 12:53:41,225 - INFO - Starting game...
+2025-04-19 12:53:41,985 - INFO - Blockchain storage initialized
+2025-04-19 12:53:48,072 - INFO - Preparing to save scene: intro
+2025-04-19 12:54:08,813 - INFO - Scene intro saved in block 25669999
+2025-04-19 12:54:32,994 - INFO - Searching for saved scene from block 25670002
+2025-04-19 12:54:34,538 - INFO - Found saved scene intro in block 25669999
+2025-04-19 13:57:21,558 - INFO - Blockchain storage initialized
+2025-04-19 13:58:04,245 - INFO - Current balance: 9.759100205863 WND
+2025-04-19 15:30:12,051 - INFO - Starting game...
+2025-04-19 15:30:12,203 - INFO - Blockchain storage initialized
+2025-04-19 15:31:01,535 - INFO - Searching for saved scene from block 25671555
+2025-04-19 15:31:13,191 - INFO - No saved scene found
+2025-04-19 15:31:26,530 - INFO - Blockchain storage initialized
+2025-04-19 15:31:32,632 - INFO - Blockchain storage initialized
+2025-04-19 15:31:32,806 - INFO - Blockchain storage initialized
+2025-04-19 15:31:34,027 - INFO - Blockchain storage initialized
+2025-04-19 15:31:34,147 - INFO - Blockchain storage initialized
+2025-04-19 15:31:37,209 - INFO - Blockchain storage initialized
+2025-04-19 15:31:37,411 - INFO - Blockchain storage initialized
+2025-04-19 15:31:40,773 - INFO - Blockchain storage initialized
+2025-04-19 15:31:40,785 - INFO - Preparing to save scene: bright_path
+2025-04-19 15:31:44,215 - INFO - Scene bright_path saved in block 25671563
+2025-04-19 15:31:48,422 - INFO - Blockchain storage initialized
+2025-04-19 15:31:48,789 - INFO - Blockchain storage initialized
+2025-04-19 15:31:50,146 - INFO - Blockchain storage initialized
+2025-04-19 15:31:50,529 - INFO - Blockchain storage initialized
+2025-04-19 15:31:51,926 - INFO - Blockchain storage initialized
+2025-04-19 15:31:52,031 - INFO - Searching for saved scene from block 25671564
+2025-04-19 15:31:54,757 - INFO - Found saved scene bright_path in block 25671563
+2025-04-19 15:31:55,400 - INFO - Blockchain storage initialized
+2025-04-19 15:48:15,233 - INFO - Blockchain storage initialized
+2025-04-19 15:48:15,971 - INFO - Blockchain storage initialized
+2025-04-19 15:48:21,709 - INFO - Blockchain storage initialized
+2025-04-19 15:48:22,405 - INFO - Blockchain storage initialized
+2025-04-19 15:48:28,807 - INFO - Blockchain storage initialized
+2025-04-19 15:48:29,502 - INFO - Blockchain storage initialized
+2025-04-19 15:48:32,311 - INFO - Blockchain storage initialized
+2025-04-19 15:48:32,995 - INFO - Blockchain storage initialized
+2025-04-19 15:48:43,407 - INFO - Blockchain storage initialized
+2025-04-19 15:48:44,074 - INFO - Blockchain storage initialized
+2025-04-19 15:48:45,658 - INFO - Blockchain storage initialized
+2025-04-19 15:48:46,324 - INFO - Blockchain storage initialized
+2025-04-19 15:48:48,852 - INFO - Blockchain storage initialized
+2025-04-19 15:48:49,570 - INFO - Blockchain storage initialized
+2025-04-19 15:50:24,699 - INFO - Blockchain storage initialized
+2025-04-19 15:50:25,365 - INFO - Blockchain storage initialized
+2025-04-19 15:50:38,420 - INFO - Blockchain storage initialized
+2025-04-19 15:50:39,106 - INFO - Blockchain storage initialized
+2025-04-19 16:19:16,425 - INFO - Blockchain storage initialized
+2025-04-19 16:19:16,427 - ERROR - Error in game: name 'scenes' is not defined

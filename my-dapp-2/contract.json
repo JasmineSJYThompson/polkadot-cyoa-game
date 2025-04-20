@@ -1,0 +1,47 @@
+{
+  "name": "IntegerStorage",
+  "address": "0xdeb1ec934c9bba27959463a1a21fdf8e480d86fb",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "newInteger",
+          "type": "uint8"
+        }
+      ],
+      "name": "save",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "load",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "loadAll",
+      "outputs": [
+        {
+          "internalType": "uint8[]",
+          "name": "",
+          "type": "uint8[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "StorageContract/contracts/5_SaveIntegers.sol",
+  "pinnedAt": 1745109038862
+}
