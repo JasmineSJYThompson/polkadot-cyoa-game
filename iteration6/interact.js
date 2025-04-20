@@ -1,6 +1,6 @@
 let provider, signer, contract;
 
-const contractAddress = "0x1F6d953ca48Fb7cB90117F63BDD80c5f5c519830";
+const contractAddress = "0x1706BEA85Fc5E197d4e40c74Dd3ae31b40872a87";
 
 async function loadABI() {
   const res = await fetch('contract.json');

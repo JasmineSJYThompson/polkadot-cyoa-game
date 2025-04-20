@@ -1,6 +1,6 @@
 {
   "name": "IntegerStorage",
-  "address": "0xdeb1ec934c9bba27959463a1a21fdf8e480d86fb",
+  "address": "0x1706bea85fc5e197d4e40c74dd3ae31b40872a87",
   "abi": [
     {
       "inputs": [
@@ -43,5 +43,5 @@
     }
   ],
   "filePath": "StorageContract/contracts/5_SaveIntegers.sol",
-  "pinnedAt": 1745109038862
+  "pinnedAt": 1745138964222
 }
