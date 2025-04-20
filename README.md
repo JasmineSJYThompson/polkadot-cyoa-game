@@ -4,11 +4,9 @@
 
 *Gilgamesh.exe* is a choose-your-own-adventure (CYOA) game set in a cyberpunk reimagining of the *Epic of Gilgamesh*. The game uses blockchain technology to record each player’s decisions on-chain, creating an immutable and verifiable narrative history. While the full integration of blockchain features is still in development, the vision is to have a persistent and player-owned story experience where every decision has lasting impact.
 
-# The Problem It Solves
+# What *Gilgamesh.exe* Solves
 
 Many narrative games fail to provide permanence or ownership of player choices. Decisions are often lost when the game ends, and there’s no way for players to prove or preserve their unique paths. *Gilgamesh.exe* solves this by storing player choices on-chain, ensuring they remain visible, verifiable, and immutable.
-
-# What *Gilgamesh.exe* Solves
 
 - **Immutable Decision Tracking:** Player choices will be recorded on-chain, allowing for a transparent, tamper-proof history of each unique journey.
 - **NFT-Based Rewards:** Players will be able to mint NFTs representing rare story paths or endings. These NFTs will serve as proof of the player's choices, collectibles, or even keys to additional content in future games.
