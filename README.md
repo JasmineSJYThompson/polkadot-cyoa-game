@@ -22,6 +22,12 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 - **Cross-Parachain Potential:** While the current game state is primarily localized, the design is built with Polkadot’s cross-chain messaging (XCMP) in mind. This will allow future expansion to integrate the game with other parachains or decentralized applications.
 - **Immutable Story Graph (Future Work):** The concept for an immutable story graph that records each decision on-chain is under development. This structure will allow players to navigate and prove their narrative paths, making each playthrough an enduring part of blockchain history.
 
+# Why is the project organised this way
+
+- Due to the immutable nature of smart contracts and their small storage size, functionality was tested and built up bit by bit in iterations so there is no finished product but I have video demoed various different stages (iteration0, iteration2, iteration6) in order that it can be understood how everything comes together.
+- The connection between https://remix.polkadot.io/ and being able to locally integrate with javascript in the web browser was something I continously tested to understand smart contract capabilities, developing my own smart contracts and testing them with inputs within my own locally run http server each time.
+- The idea is that the smart contract functionality be integrated with the story progress functionality in a fancy command-line like interface for the actual video game. Currently latency issues make this difficult to develop in one piece.
+
 # Future Development
 
 - **Blockchain Integration:** The smart contracts, immutable story graph, and NFT integration are still under development. The project is designed to scale and evolve with the growth of the Polkadot ecosystem.
