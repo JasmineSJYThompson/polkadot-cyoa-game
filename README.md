@@ -50,6 +50,10 @@ Many narrative games fail to provide permanence or ownership of player choices. 
 
 [Demo story progress tracker with Metamask on Westend Assethub using IntegerStorage custom smart contract video (interation 6)](https://youtu.be/y4dbvF7GeIE)
 
+# Code explanation using Loom
+
+[Loom code explanation](https://www.loom.com/share/209e56cbc8cb49988ec97b8b3ddc77cf?sid=d373e33d-da91-4e25-93fd-0c3bf428d90e)
+
 # How to run
 
 To run any of the iterationn:
