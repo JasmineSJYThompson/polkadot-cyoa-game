@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic ABI dApp with Scene Save/Load</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #output {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+
+    #choices button {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #choices button:hover {
+      background-color: #45a049;
+    }
+
+    #txStatus {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    #sceneControl {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Minimal dApp with Dynamic ABI and Blockchain Interaction</h1>
+
+  <button onclick="connect()">Connect to MetaMask</button>
+  <button onclick="saveScene()">Save Scene</button>
+  <button onclick="loadScene()">Load Scene</button>
+  <button id="restartButton">Restart Game</button>
+
+  <div id="output">⏳ Connect to the contract to start...</div>
+  <div id="choices"></div>
+
+  <!-- Number input section is hidden from now on, no longer needed for gameplay -->
+  <div id="sceneControl">
+    <div id="txStatus"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="new_interact.js"></script>
+</body>
+</html>
+
