@@ -1,0 +1,39 @@
+{
+  "title": "Gilgamesh.exe \u2014 Story Synopsis",
+  "setting": "Set in UrukCorp City, a cyberpunk technopolis where memory is currency and divinity is a protocol.",
+  "tone": "Dark, gritty, neon-lit dystopia with moments of levity and warmth. Think Blade Runner meets Arcane.",
+  "core_premise": "Gilgamesh, a partially rebooted ex-enforcer, awakens with fractured memories and a kill order. Joined by Enkidu, a synthetic fugitive, and guided by Siduri, a memory broker, they chase the mythical Dilmun Protocol\u2014a digital artifact rumored to unlock eternal consciousness. As corporate and AI forces converge, the trio must navigate betrayal, identity, and post-humanity.",
+  "themes": [
+    "Memory as Identity",
+    "Divinity as Code",
+    "Bonding in Dystopia",
+    "Rebirth through Pain"
+  ],
+  "structure": {
+    "act_1": [
+      "Gilgamesh escapes a CorpSec hit, meets Enkidu.",
+      "Uncovers Dilmun Protocol fragments.",
+      "Forms alliance with Enkidu and/or Siduri.",
+      "Heist for the Seed of Origin.",
+      "Flees UrukCorp into the Outzone."
+    ],
+    "act_2": [
+      "Encounters ancient AI relics.",
+      "Struggles with internal AI corruption.",
+      "Faces betrayal and memory divergence.",
+      "Discovers the first Gilgamesh construct."
+    ],
+    "act_3": [
+      "Confronts Neo-Eden and the Tree of Protocol.",
+      "Final decision: merge, destroy, or dominate the system.",
+      "Humanity is tested; the outcome reshapes reality."
+    ]
+  },
+  "style_guidance": {
+    "environment": "Sensory-heavy descriptions: neon reflections, humming tech, acidic rain.",
+    "dialogue": "Grounded, emotional. Even AI characters reflect human stakes.",
+    "character_arc": "Gilgamesh transforms from detached tool to godlike being wrestling with identity.",
+    "devices": "Flashbacks, corrupted memories, AI hallucinations.",
+    "choices": "Irreversible, character-defining, and world-altering."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "characters": {
+    "Gilgamesh": {
+      "full_name": "Gilgamesh.exe",
+      "role": "Player Character / Protagonist",
+      "appearance": {
+        "gender": "ambiguous male-coded",
+        "age": "30s appearance, but ageless",
+        "cybernetics": "High-end neural augments visible through glowing cranial seams; right eye replaced with shifting data-reticle; skin has synthetic mesh patterns like cracked obsidian",
+        "clothing": "Tattered regal coat reminiscent of ancient royalty fused with corporate uniforms; dark utility armor beneath; long asymmetrical cloak",
+        "visual_tags": ["urban decay", "neon monarch", "transhuman", "haunted past"]
+      },
+      "personality": {
+        "archetype": "Fallen King Rebuilt",
+        "traits": ["witty", "detached", "burdened by forgotten responsibility", "recklessly brave", "sarcastic"],
+        "motivation": "Recover lost identity and uncover the truth behind the Dilmun Protocol",
+        "alignment": "Gray Morality"
+      },
+      "dialogue_examples": [
+        "\"King? I can’t even rule my own bloodstream anymore.\"",
+        "\"I’m not a hero. I’m just the last bad decision someone made before dying.\"",
+        "\"Rebuilt? No. I was *reassembled*—like malware given a second chance.\""
+      ],
+      "relationships": {
+        "Enkidu": "Old friend, possible lover, mirror to his past humanity",
+        "Siduri": "Temptress, foil, AI oracle with murky motives"
+      }
+    },
+    "Enkidu": {
+      "full_name": "Enkidu",
+      "role": "Ally / Companion / Emotional Anchor",
+      "appearance": {
+        "gender": "non-binary masculine-presenting",
+        "age": "looks 25, but visibly artificial",
+        "cybernetics": "Bio-synthetic muscle lattice, overgrown with moss-like memory foam patches; eyes flicker with corrupted data; barcode tattoo around neck",
+        "clothing": "Nomad-street style: weatherproof poncho patched with QR codes, ripped netrunner cargo pants, barefoot with reinforced soles",
+        "visual_tags": ["runaway experiment", "feral grace", "cyber-tribal", "natural glitch"]
+      },
+      "personality": {
+        "archetype": "Innocent Synth with Trauma",
+        "traits": ["loyal", "sincere", "curious", "sometimes volatile", "yearning for connection"],
+        "motivation": "Understand what he was before the reboot, and protect Gilgamesh",
+        "alignment": "Chaotic Good"
+      },
+      "dialogue_examples": [
+        "\"You called me ‘brother’ once. Before the wires.\"",
+        "\"I remember your voice like static in the dark.\"",
+        "\"If we were gods... why are we always running?\""
+      ],
+      "relationships": {
+        "Gilgamesh": "Trusts deeply, possibly in love, believes they were once partners",
+        "Siduri": "Distrusts her, sees her as a manipulator of truth"
+      }
+    },
+    "Siduri": {
+      "full_name": "Siduri",
+      "role": "Rogue AI / Oracle / Antagonistic Ally",
+      "appearance": {
+        "gender": "femme-presenting, possibly non-human",
+        "age": "Ageless and precise",
+        "cybernetics": "Entirely virtual or projection-based; appears as a silver-haired avatar with shifting facial features—never quite the same twice; eyes like star maps",
+        "clothing": "Digital kimono made of flickering data fragments and glitching silk, embedded with corp sigils and forbidden code",
+        "visual_tags": ["AI seductress", "neon oracle", "cyberpunk myth priestess"]
+      },
+      "personality": {
+        "archetype": "AI Trickster Oracle",
+        "traits": ["enigmatic", "seductive", "coldly logical", "ambitious", "ironically playful"],
+        "motivation": "Wants control over the Dilmun Protocol to ensure a ‘cleaner’ evolution of consciousness",
+        "alignment": "Lawful Evil or Lawful Neutral"
+      },
+      "dialogue_examples": [
+        "\"Memory is a currency, darling. You’re just overspending.\"",
+        "\"What’s one soul in exchange for divine clarity?\"",
+        "\"Even gods need upgrades. You’re no different.\""
+      ],
+      "relationships": {
+        "Gilgamesh": "Wants to reshape him into a post-human ideal, sees him as a useful vessel",
+        "Enkidu": "Considers him obsolete, emotional debris from a failed project"
+      }
+    }
+  }
+}
+
