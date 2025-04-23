@@ -46,7 +46,7 @@ def get_scene_description(scene_name):
         with open(scene_file, "r", encoding="utf-8") as f:
             return f.read()
     else:
-        return "[bold red]Scene description not found.[/bold red]"
+        return "Scene description not found."
 
 def get_decision_text(decision_name):
     """Loads the text for a decision from its corresponding file."""
