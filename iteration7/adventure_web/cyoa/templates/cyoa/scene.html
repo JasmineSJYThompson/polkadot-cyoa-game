@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chrome Gilgamesh</title>
+</head>
+<body>
+    <h1>{{ scene_id }}</h1>
+    <p>{{ scene.desc }}</p>
+    <ul>
+        {% for label, target in choices.items %}
+            <li><a href="{% url 'scene' scene_id=target %}">{{ label }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
