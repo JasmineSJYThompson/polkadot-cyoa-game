@@ -2,8 +2,10 @@ import streamlit as st
 import json
 import os
 
+BASE_DIR = os.getcwd()+"/iteration0/"
+
 # Load scenes
-with open(os.getcwd()+"/iteration0/json_files/scenes.json", "r") as f:
+with open(BASE_DIR+"json_files/scenes.json", "r") as f:
     scenes = json.load(f)["scenes"]
 
 # State initialization
@@ -45,7 +47,7 @@ def get_scene_description(scene_name):
     """Retrieve scene description from a file."""
     scene_file = f"scenes/{scene_name}.txt"
     if os.path.exists(scene_file):
-        with open(scene_file, "r", encoding="utf-8") as f:
+        with open(BASE_DIR+scene_file, "r", encoding="utf-8") as f:
             return f.read()
     return "Scene description not found."
 
@@ -53,7 +55,7 @@ def get_decision_text(decision_name):
     """Retrieve decision text from a file."""
     decision_file = f"decisions/{decision_name}.txt"
     if os.path.exists(decision_file):
-        with open(decision_file, "r", encoding="utf-8") as f:
+        with open(BASE_DIR+decision_file, "r", encoding="utf-8") as f:
             return f.read()
     return "Decision text not found."
 
@@ -61,7 +63,7 @@ def get_ascii_art(scene_name):
     """Retrieve ASCII art for a scene."""
     path = f"ascii_art/{scene_name}.asc"
     if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
+        with open(BASE_DIR+path, "r", encoding="utf-8") as f:
             return f.read()
     return ""
 
