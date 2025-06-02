@@ -3,7 +3,7 @@ import json
 import os
 
 # Load scenes
-with open("json_files/scenes.json", "r", encoding="utf-8") as f:
+with open(os.getcwd()+"/iteration0/json_files/scenes.json", "r") as f:
     scenes = json.load(f)["scenes"]
 
 # State initialization
